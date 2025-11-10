@@ -14,11 +14,11 @@ st.markdown("""
 st.title("PDF 上传")
 
 st.subheader("1. 选择内容领域")
-domain = st.selectbox("", ["计算机", "数学", "物理", "经济", "医学", "其他"], index=0)
+domain = st.selectbox("请选择文档领域", ["计算机", "数学", "物理", "经济", "医学", "其他"], index=0)
 st.session_state["domain"] = domain
 
 st.subheader("2. 上传 PDF 文件")
-uploaded_file = st.file_uploader("", type=["pdf"], accept_multiple_files=False)
+uploaded_file = st.file_uploader("选择 PDF 文件", type=["pdf"], accept_multiple_files=False)
 
 if uploaded_file:
     with st.spinner("正在处理文件..."):
