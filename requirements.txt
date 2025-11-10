@@ -1,0 +1,16 @@
+streamlit==1.38.0
+PyMuPDF==1.24.9
+google-generativeai==0.7.2
+python-dotenv==1.0.1
+Pillow==10.4.0
+pytesseract==0.3.13
+rapidfuzz==3.9.6
+cachetools==5.3.3
+pydantic==2.8.2
+pydantic-settings==2.5.2
+tenacity==8.3.0
+requests==2.32.3
+pytest==8.3.3
+openai==1.30.0
+httpx<0.28
+anthropic==0.34.2

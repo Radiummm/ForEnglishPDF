@@ -1,0 +1,8 @@
+- [x] Clarify Project Requirements: Streamlit PDF 学习助手，Gemini 2.5 Pro、OCR、缓存、结构化输出。
+- [x] Scaffold the Project: 已创建基础目录与文件。
+- [ ] Customize the Project: 后续完善交互、性能与企业网关适配。
+- [ ] Install Required Extensions: 当前无额外 VS Code 扩展需求。
+- [ ] Compile the Project: 待安装依赖并运行。
+- [ ] Create and Run Task: 如需可添加启动任务。
+- [ ] Launch the Project: 运行 streamlit 接口。
+- [ ] Ensure Documentation is Complete: README 已生成，后续更新。
