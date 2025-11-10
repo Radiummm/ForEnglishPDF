@@ -27,6 +27,9 @@ wheels/
 .env.development
 .env.production
 
+# Streamlit secrets
+.streamlit/secrets.toml
+
 # Logs
 *.log
 logs/
@@ -34,9 +37,6 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
-
-# Streamlit
-/.streamlit/
 
 # User uploads and cache
 data/uploads/
